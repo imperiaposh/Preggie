@@ -3,4 +3,39 @@
     <string name="activity_main_name">Prisijungimo vardas</string>
     <string name="activity_main_password">Slaptažodis</string>
     <string name="activity_main_login">Prisijungti</string>
+    <string name="activity_main_registration">Registracija</string>
+    <string name="activity_meniu_new">Naujas užsakymas</string>
+    <string name="activity_meniu_search">Užsakymų paieška</string>
+
+    <string name="kiekis">Žanras:</string>
+    <string name="kiekis_1vnt">1vnt.</string>
+    <string name="kiekis_2vnt">2vnt.</string>
+    <string name="kiekis_3vnt">3vnt.</string>
+
+    <string name="pristatymas">Pristatymo būdai:</string>
+    <string name="pristatymas_pastu">Išperkamuoju paštu</string>
+    <string name="pristatymas_namai">Pristatymas į namus</string>
+    <string name="pristatymas_vieta">Susitikimas Jums patogioje vietoje</string>
+
+    <string name="atsiskaitymas">Atsiskaitymo būdas:</string>
+    <string name="atsiskaitymas_pastu">Išperkamuoju paštu</string>
+    <string name="atsiskaitymas_grynaisiais">Grynaisiais</string>
+
+    <string name="activity_add_new_adress">Pristatymo adresas/Jums patogi vieta</string>
+    <string name="activity_add_new_phone">Kontaktinis telefonas</string>
+
+    <string name="activity_add_new_submit">Patvirtinti užsakymą</string>
+
+    <string name="activity_reg_username">Prisijungimo vardas</string>
+    <string name="activity_reg_password">Slaptažodis</string>
+    <string name="activity_reg_name">Vardas</string>
+    <string name="activity_reg_surname">Pavardė</string>
+    <string name="activity_reg_adress">Adresas</string>
+    <string name="activity_reg_city">Miestas</string>
+    <string name="activity_reg_phone">Kontaktinis tel. nr</string>
+    <string name="activity_reg_email">El. paštas</string>
+
+    <string name="activity_reg_registration">Registruotis</string>
+
+
 </resources>

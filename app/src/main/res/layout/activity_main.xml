@@ -44,8 +44,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <Button
+            android:id="@+id/prijungti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/activity_main_login"/>
+        <Button
+            android:id="@+id/registracija"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_main_registration"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
