@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.posh.preggietest.AddNewActivity">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kiekis:"/>
+
+        <Spinner
+            android:id="@+id/kiekisSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pristatymo būdas:"/>
+
+        <CheckBox
+            android:id="@+id/pristatymas_pastu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Išperkamuoju paštu"/>
+
+        <CheckBox
+            android:id="@+id/pristatymas_namai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pristatymas į namus"/>
+
+        <CheckBox
+            android:id="@+id/pristatymas_vieta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Susitikimas Jums patogioje vietoje"/>
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+            </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Atsiskaitymo būdas:"/>
+
+        <RadioGroup
+            android:id="@+id/atsiskaitymaiRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/atsiskaitymas_pastu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Išperkamuoju paštu"/>
+
+            <RadioButton
+                android:id="@+id/atsiskaitymas_grynaisiais"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grynaisiais"/>
+
+        </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+                </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_add_new_adress"/>
+        <EditText
+            android:id="@+id/adress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_add_new_phone"/>
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <Button
+            android:id="@+id/newsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_add_new_submit"/>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
