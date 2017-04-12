@@ -30,9 +30,6 @@
     <string name="activity_reg_password">Slaptažodis</string>
     <string name="activity_reg_name">Vardas</string>
     <string name="activity_reg_surname">Pavardė</string>
-    <string name="activity_reg_adress">Adresas</string>
-    <string name="activity_reg_city">Miestas</string>
-    <string name="activity_reg_phone">Kontaktinis tel. nr</string>
     <string name="activity_reg_email">El. paštas</string>
 
     <string name="activity_reg_registration">Registruotis</string>
